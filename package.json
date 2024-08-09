@@ -7,7 +7,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "@cloudstream/core": "^3.0.0" 
+    "@cloudstream/core": "3.0.0" 
   },
   "devDependencies": {
     "webpack": "^5.75.0",
