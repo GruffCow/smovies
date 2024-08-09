@@ -1,0 +1,23 @@
+// manifest.json
+{
+  "id": "smovies",
+  "version": "1.0.0",
+  "name": "SMovies",
+  "description": "Search, view, and play movies and TV shows from multiple websites.",
+  "resources": ["dist/bundle.js"],
+  "types": ["movie", "series"],
+  "catalogs": [
+    {
+      "id": "smovies_catalog",
+      "type": "movie",
+      "name": "SMovies Movies",
+      "extra": [{ "name": "search", "isRequired": true }]
+    },
+    {
+      "id": "smovies_catalog",
+      "type": "series",
+      "name": "SMovies Series",
+      "extra": [{ "name": "search", "isRequired": true }]
+    }
+  ]
+}
